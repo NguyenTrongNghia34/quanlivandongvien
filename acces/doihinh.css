@@ -1,0 +1,159 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+    border: none;
+}
+
+body {
+    color: #000;
+    font-family: 'FiraSans',sans-serif;
+    background-color: #371973;
+    font-size: 11pt;
+    line-height: 1.3;
+}
+
+.doihinh ul li {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    font-weight: 700 !important;
+    margin: 0 1rem;
+    font-family: 'Big Shoulders Display',cursive;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+.doihinh, .doibong {
+    background: #ffca05;
+    position: sticky;
+    top: 0;
+    z-index: 99;
+}
+
+
+
+.doihinh ul li .active {
+    color: #423391;
+}
+
+.doihinh ul li a {
+    color: #fff;
+    display: inline-block;
+    position: relative;
+    font-weight: 700 !important;
+    margin: 0 1rem;
+    font-family: 'Big Shoulders Display',cursive;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+.container a {
+    color: #007bff;
+    text-decoration: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.sua_a {
+    height: 3px;
+    width: 0;
+    background-color: #423391;
+    transition: 0.5s ease;
+}
+
+.container a:hover ~ .sua_a {
+    width: 100%;
+}
+
+.cauthu .cauthu-row>.cauthu-cell:first-child {
+    border-left: 0;
+}
+
+.cauthu .cauthu-row>.cauthu-cell:last-child {
+    border-right: 0;
+}
+
+.cauthu .cauthu-cell {
+    margin: -1px 0px 0px -1px;
+}
+
+.cauthu .cauthu-cell {
+    clear: both;
+    border: 1px solid #5e419a;
+    background-image: url(../images_doibong/bg-cauthu.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.cauthu .so-ao img {
+    height: 55px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+.cauthu .ten {
+    font-family: 'Big Shoulders Display',cursive;
+    font-weight: 700 !important;
+    font-size: 25pt;
+}
+
+.text-yellow {
+    color: #ffca05 !important;
+}
+
+.font-weight-light {
+    font-weight: 300!important;
+}
+
+.cauthu .vi-tri {
+    font-family: 'Big Shoulders Display',cursive;
+    font-size: 18pt;
+    text-transform: uppercase;
+}
+
+.text-white {
+    color: #fff!important;
+}
+
+.text-right {
+    text-align: right !important;
+}
+
+.cauthu .cauthu-info {
+    background-image: linear-gradient(to top, rgba(24, 11, 51, 1) , rgba(55, 25, 115, 0));
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    opacity: 0;
+}
+
+.cauthu .cauthu-info {
+    display: block;
+    color: #fff;
+    width: 100%;
+    padding: 1rem;
+}
+
+.cauthu .cauthu-cell:hover {
+    cursor: pointer;
+}
+
+.cauthu .cauthu-cell:hover .cauthu-info {
+    transition: 2s ease;
+    opacity: 1;
+}
+
+.cauthu .cauthu-cell hr {
+    margin: 0.125rem 0;
+    border-top: 1px solid #ffca05
+}
+
+
