@@ -491,51 +491,7 @@ hr.gach-trang {
     font-weight: 900!important;
 
 }
-a{
-    text-decoration: none;
-    color: #007bff;
-    background-color: transparent;
-}
-/* header */
-.aboutus-navbar , .product-navbar 
-{
-    display: block;
-    padding: 0.5rem 0;
-    background-color: #ffca05;
-    position: sticky;
-    top:0;
-    z-index: 99;
-}
-.aboutus-navbar .container
-{
-    padding-left: 120px;
-    padding-right: 10px;
-}
-.aboutus-navbar ul
-{
-    margin: 0;
-    padding: 0;
-}
-.aboutus-navbar ul li
-{
-    display: inline-block;
-    list-style: none;
-}
-.aboutus-navbar ul li a
-{
 
-    display: block;
-    color: #fff;
-   
-    text-transform: uppercase;
-    font-weight: 900!important;
-    font-size: 18pt;
-    padding: 0 2rem;
-}
-.aboutus-navbar ul li a:hover
-{
-    color: #371973;
-}
 /* end header */
 /* gioithieu */
 
@@ -684,6 +640,10 @@ footer .container
 .ml-md-5
 {
     margin-left: 3rem!important;
+}
+.px-4 
+{
+    margin: 0;
 }
 .footer-menu
 {
